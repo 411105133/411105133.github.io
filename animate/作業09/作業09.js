@@ -160,7 +160,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.各個書頁();
-	this.instance.setTransform(173.65,258,0.8554,0.8554,0,0,0,168.9,276.1);
+	this.instance.setTransform(173.1,258.05,0.8313,0.8313,0,0,0,169,276.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -176,14 +176,14 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(168,167.5,168,167.5);
 // library properties:
 lib.properties = {
-	id: '72C653AC0BF042C4905F2B64EA2BEB0D',
+	id: '59F392404A0843739429ABCCF5589F99',
 	width: 336,
 	height: 335,
 	fps: 10,
 	color: "#0000FF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/作業09_atlas_1.png?1701768949003", id:"作業09_atlas_1"}
+		{src:"images/作業09_atlas_1.png?1701769706929", id:"作業09_atlas_1"}
 	],
 	preloads: []
 };
@@ -221,7 +221,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['72C653AC0BF042C4905F2B64EA2BEB0D'] = {
+an.compositions['59F392404A0843739429ABCCF5589F99'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
